@@ -1,0 +1,31 @@
+{
+  "id": "com.custom.resetbutton",
+  "version": "1.0.0",
+  "name": "Reset Filters Button",
+  "description": "A button to reset chart-level and linked chart filters in SAC.",
+  "newInstancePrefix": "resetBtn",
+  "vendor": "jmlpcavaco",
+  "license": "MIT",
+  "properties": {
+    "buttonText": {
+      "type": "string",
+      "default": "Reset Filters",
+      "description": "Text displayed on the button"
+    },
+    "resetLinked": {
+      "type": "boolean",
+      "default": true,
+      "description": "Enable or disable linked chart filter reset"
+    }
+  },
+  "webcomponents": [
+    {
+      "kind": "main",
+      "tag": "reset-button",
+      "url": "https://jmlpcavaco.github.io/CustomResetButton/index.html",
+      "integrity": ""
+    }
+  ],
+  "methods": {},
+  "events": {}
+}
