@@ -1,14 +1,18 @@
-.sac-reset-button {
-  background-color: #0070f2;
+#resetButton {
+  background-color: #007aff;
   color: #fff;
   border: none;
-  border-radius: 4px;
-  padding: 8px 16px;
+  padding: 10px 20px;
   font-size: 14px;
+  border-radius: 4px;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
-.sac-reset-button:hover {
+#resetButton:hover {
   background-color: #005bb5;
+}
+
+#resetButton:focus {
+  outline: 2px solid #005bb5;
 }
